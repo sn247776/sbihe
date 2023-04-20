@@ -1,38 +1,159 @@
-.App {
+/* Hero section #FF5D3D */
+
+.hero-bg {
+  background-image: url(./assets/carousel-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.intro {
+  padding-top: 30vh;
+}
+.hero {
+  height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.universal-hero{
+  height: 40vh;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.universal-hero h1{
+  padding-top: 20vh;
+  font-size: 3.5rem;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero h1 {
+  font-size: 3.5rem;
+  padding: 1rem;
+}
+
+.navbar a{
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.navbar{
+  position: fixed;
+  width: 100vw;
+  top:0;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2%;
+  text-align: center;
+}
+
+.grid h3{
+  font-size: 1.5rem;
+}
+
+.title{
+  text-align: center;
+  padding: 8% 50px;
+}
+
+.title h1{
+  font-size: 2.5rem;
+}
+
+.section{
+  min-height: 40vh;
+  margin: 0 5%;
+}
+
+
+/* Facilities CSS is Here */
+
+.facilities-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.facilities-grid img{
+  width: 27vw;
+  border-radius: 8px;
+}
+
+.facilities-grid h3{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Apply Now section */
+
+.ANbg{
+  background-image: url(./assets/carousel-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 10px;
+  margin: 10% 0;
+}
+
+.applyNow{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40vh;
+}
+
+.applyNow h1{
+  font-size: 2.5rem;
+}
+
+.btn{
+  background-color: rgba(255, 0, 0, 0);
+  padding: 10px 50px;
   color: white;
+  font-weight: 600;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 2rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SocialMedia a{
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+/* About Page CSS */
+
+.aboutPage{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin: 5%;
+}
+
+.aboutPage h1{
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.aboutPage h2{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.aboutPage img{
+  width: 30vw;
 }
