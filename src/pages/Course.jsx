@@ -1,18 +1,17 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import UniversalHero from '../components/UniversalHero'
-import AboutSection from '../components/AboutSection'
 import Footer from '../components/Footer'
+import CourseSection from '../components/CourseSection'
 
-function About() {
+function Course() {
   return (
     <Box>
-        <UniversalHero title="About"/>
-
-        <AboutSection/>
+        <UniversalHero title="Course"/>
+        <CourseSection/>
         <Footer/>
     </Box>
   )
 }
 
-export default About
+export default Course

@@ -7,3 +7,19 @@
   overflow-x: hidden;
 }
 
+hr{
+  margin: 5%;
+}
+
+.logo{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.logo img{
+  height: 60px;
+}

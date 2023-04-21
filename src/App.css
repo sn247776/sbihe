@@ -157,3 +157,41 @@
 .aboutPage img{
   width: 30vw;
 }
+
+.aboutPage2{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin: 5%;
+}
+
+.aboutPage2 h2{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.aboutPage2 img{
+  width: 30vw;
+}
+
+.courseOffer{
+  margin: 0 5%;
+}
+
+.courseOffer h2{
+  font-size: 1.5rem;
+}
+
+.courseOffer h3{
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.courseOffer p{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.courseOffer a{
+  display: flex;
+  align-items: center;
+}
