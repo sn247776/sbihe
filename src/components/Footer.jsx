@@ -7,7 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Footer() {
   return (
-    <Box fontWeight="500">
+    <Box fontWeight="500" className="footer">
       <Box display="flex" justifyContent="space-between" px={5} alignItems="center" >
         <Box>
           <p>Email Id:- sbiheshamli@gmail.com</p>
