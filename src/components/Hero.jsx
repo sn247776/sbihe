@@ -10,8 +10,8 @@ function Hero() {
         <Topbar />
         <Box className="hero">
           <Box className="intro">
-            <h1>Silver Bells Institute For Higher Education</h1>
-            <p>
+            <h1 className="whiteHeading">Silver Bells Institute For Higher Education</h1>
+            <p className="whiteHeading">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. ut
               similique obcaecati expedita rem? Ipsa, beatae.
             </p>

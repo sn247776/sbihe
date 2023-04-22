@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Course from "./pages/Course";
 import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
+import MobNav from "./components/MobNav";
 function App() {
   const [theme, colorMode] = useMode();
 
@@ -14,6 +16,7 @@ function App() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <MobNav/>
         
         <Router>
           <Routes>
@@ -21,6 +24,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/course" element={<Course/>} />
           <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/contact" element={<Contact/>} />
           </Routes>
         </Router>
       </ThemeProvider>
