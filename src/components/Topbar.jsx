@@ -88,7 +88,10 @@ window.addEventListener('scroll', changeBackground);
             <LightModeOutlinedIcon sx={{cursor:"pointer"}}/>
           )}
         </Box>
-        <MenuIcon onClick={handleMenuClick}/>
+        <Box className="mobMenu">
+        <MenuIcon onClick={handleMenuClick} />
+        </Box>
+        
         </Box>
       </Box>
     </Box>
