@@ -39,8 +39,7 @@ function Footer() {
       </Box>
       <Box textAlign="center" py={2} px={3}>
         <p>
-          CREATE BY SBIHE BCA BATCH (2020-23). SAGAR NIRWAL, AMIT CHAUHAN,
-          ABHISHEK CHAUHAN, ANKUSH KUMAR, JUNAID
+          CREATE BY SBIHE BCA BATCH (2020-23). SAGAR NIRWAL, DIKSHA MALIK, ANJALI PAL, SEEMA PAL, KUSHI
         </p>
       </Box>
     </Box>
