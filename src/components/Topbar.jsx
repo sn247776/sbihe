@@ -36,7 +36,6 @@ const Topbar = () => {
   const handleMenuClick = () => {
     
     setMenuOpen(!menuOpen);
-    console.log(menuOpen)
   };
   
 
