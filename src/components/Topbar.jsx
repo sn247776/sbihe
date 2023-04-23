@@ -55,7 +55,7 @@ window.addEventListener('scroll', changeBackground);
 <Box>
 <Box display="flex" justifyContent="space-between" p={2} px={3} alignItems="center" className="navbar" bgcolor={navbar ? colors.primary[400] : ''} color={navbar ? "" : 'white'} >
       
-      <Box className="logo">
+      <Box className="logo" href="/">
         <img src={Logo}/>
         <p>SBIHE</p>
       </Box>
